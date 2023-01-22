@@ -1,0 +1,132 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 16px;
+    color: #39b54a;
+}
+h5{
+    font-size: 18px;
+}
+h6{
+    font-size: 16px;
+    color:  #666;
+}
+li{
+    font-size: 16px;
+}
+p{
+    font-size: 12px;
+    text-align: center;
+    color:  #666;
+}
+/* MOBILE */
+/* Header */
+header{
+    background-color: #EAC926;
+    padding: 10px;
+}
+.header__logo{
+    width: 100%;
+}
+.list__element > a {
+    color: black;
+    text-decoration: none;
+}
+.element__5{
+    padding-top: 10px;
+}
+.header__div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.header__div > i{
+    color: white;
+    background-color: #1259c3;
+    padding: 10px;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.header__div > i:hover{
+    background-color: #2164c9;
+}
+.nav__1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.form__button{
+    padding: 5px;
+    background-color: #ebebeb;
+    border: 1px solid #1259c3;
+    border-radius: 20px;
+}
+.form__input{
+    padding: 5px;
+    border: 1px solid #1259c3;
+    border-radius: 1.625rem;
+}
+.form__button > i{
+    color: #1259c3;
+}
+.header__section > h5{
+    text-align: center;
+    padding: 10px;
+}
+/* Main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    background-color: #ebebeb;
+}
+.section__article{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 5px 5px 5px  #666;
+}
+.section__article > i{
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    padding: 10px;
+    border-radius: 50%;
+}
+.section__article > img{
+    width: 100%;
+}
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer__section > i{
+    color: #1259c3;
+    font-size: 2em;
+}
