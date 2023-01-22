@@ -38,31 +38,15 @@ p{
 header{
     background-color: #EAC926;
     padding: 10px;
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
 }
 .header__logo{
-    width: 100%;
-}
-.list__element > a {
-    color: black;
-    text-decoration: none;
-}
-.element__5{
-    padding-top: 10px;
-}
-.header__div{
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-.header__div > i{
-    color: white;
-    background-color: #1259c3;
-    padding: 10px;
-    border-radius: 25%;
-    cursor: pointer;
-}
-.header__div > i:hover{
-    background-color: #2164c9;
+    width: 70%;
 }
 .nav__1{
     display: flex;
@@ -87,23 +71,66 @@ header{
     text-align: center;
     padding: 10px;
 }
+.nav__2{
+    display: none;
+}
+.list__element > a {
+    color: black;
+    text-decoration: none;
+}
+.element__5{
+    padding-top: 10px;
+}
+.header__div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.header__div > i{
+    color: white;
+    background-color: #1259c3;
+    padding: 10px;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.header__div > i:hover{
+    background-color: #2164c9;
+}
 /* Main */
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 90%;
+    height: 4300px;
     background-color: #ebebeb;
+    justify-content: space-around;
+}
+.main__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section__title{
+    margin-bottom: 15px;
 }
 .section__article{
+    height: 500px;
     margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
     width: 90%;
     background-color: white;
-    padding: 10px;
-    box-shadow: 5px 5px 5px  #666;
+    padding: 15px;
+    border: 1px solid #ebebeb;
+    border-radius: 1.625rem;
+    /* box-shadow: 0px 0px 10px rgb(100, 100, 100); */
+    cursor: pointer;
+}
+.section__article > img{
+    width: 100%;
 }
 .section__article > i{
     color: #39b54a;
@@ -111,14 +138,14 @@ main{
     padding: 10px;
     border-radius: 50%;
 }
-.section__article > img{
-    width: 100%;
-}
 /* Footer */
 footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-top: 1px solid #ebebeb;
+    background-color: white;
+    padding-bottom: 15px;
 }
 .footer__section{
     display: flex;
@@ -129,4 +156,11 @@ footer{
 .footer__section > i{
     color: #1259c3;
     font-size: 2em;
+}
+/* TABLET */
+@media (min-width: 768px) {
+    /* Header */
+    header{
+        
+    }
 }
