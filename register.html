@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&display=swap" rel="stylesheet">
     <!-- Iconos -->
     <script src="https://kit.fontawesome.com/5264c4476b.js" crossorigin="anonymous"></script>
-    <title>Home</title>
+    <title>Registrarse</title>
 </head>
 <body>
     <header>
@@ -20,7 +20,7 @@
             <img class="section__logo" src="./assets/img/mercado-libre-logo.png" alt="logo_mercadolibre_png">
             <nav class="section__nav nav__1">
                 <form class="nav__form">
-                    <input class="form__input" type="text" placeholder="Buscar productos, marcas">
+                    <input class="nav__input" type="text" placeholder="Buscar productos, marcas">
                     <button class="form__button"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </nav>
@@ -37,7 +37,7 @@
                     <li class="list__element element__4"><a class="element__link link__4" href="">Ayuda</a></li>
                 </ul>
                 <ul class="nav__list list__02">
-                    <li class="list__element element__5"><a class="element__link link__5" href="">Creá tu cuenta <i class="fa-sharp fa-solid fa-id-card"></i></a></li>
+                    <li class="list__element element__5"><a class="element__link link__5" href="#">Creá tu cuenta <i class="fa-sharp fa-solid fa-id-card"></i></a></li>
                     <li class="list__element element__6"><a class="element__link link__6" href="./login.html">Ingresá <i class="fa-sharp fa-solid fa-right-to-bracket"></i></a></li>
                     <li class="list__element element__7"><a class="element__link link__7" href="">Mis compras <i class="fa-sharp fa-solid fa-basket-shopping"></i></a></li>
                 </ul>
@@ -47,9 +47,36 @@
             </div>
         </section>
     </header>
-    <main>
-        <form>
-            
+    <main class="register__main">
+        <form class="register__form" action="/proyecto-ML--AdaITW/home.html">
+            <input class="form__input" type="text" placeholder="Nombre y apellido">
+            <input class="form__input" type="text" placeholder="Nombre de usuario">
+            <input class="form__input" type="email" placeholder="E-mail">
+            <legend class="form__legend">Fecha de nacimiento</legend>
+            <input class="form__input" type="date">
+            <input class="form__input" type="text" placeholder="Domicilio">
+            <legend class="form__legend">Perfil del usuario</legend>
+            <input class="form__check" type="radio" id="comprador" value="comprador">
+            <label for="comprador">Comprador</label>
+            <input class="form__check" type="radio" id="vendedor" value="vendedor">
+            <label for="vendedor">Vendedor</label>
+            <legend class="form__legend">Intereses</legend>
+            <input class="form__check" type="checkbox" id="electro">
+            <label for="electro">Electro</label>
+            <input class="form__check" type="checkbox" id="Moda">
+            <label for="moda">Moda</label>
+            <input class="form__check" type="checkbox" id="hogar">
+            <label for="hogar">Hogar</label>
+            <input class="form__check" type="checkbox" id="jugueteria>
+            <label for="jugueteria">Juguetería</label>
+            <input class="form__check" type="checkbox" id="vidasana">
+            <label for="vidasana">Vida sana</label>
+            <legend class="form__legend">Imagen de perfil</legend>
+            <input type="file">
+            <input class="form__input" type="password" placeholder="Contraseña">
+            <input class="form__input" type="password" placeholder="Confirmar contraseña">
+            <button class="form__submit" type="submit">Enviar</button>
+            <button class="form__submit" type="reset">Borrar</button>
         </form>
     </main>
     <footer>

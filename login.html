@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&display=swap" rel="stylesheet">
     <!-- Iconos -->
     <script src="https://kit.fontawesome.com/5264c4476b.js" crossorigin="anonymous"></script>
-    <title>Home</title>
+    <title>Iniciar Sesión</title>
 </head>
 <body>
     <header>
@@ -20,7 +20,7 @@
             <img class="section__logo" src="./assets/img/mercado-libre-logo.png" alt="logo_mercadolibre_png">
             <nav class="section__nav nav__1">
                 <form class="nav__form">
-                    <input class="form__input" type="text" placeholder="Buscar productos, marcas">
+                    <input class="nav__input" type="text" placeholder="Buscar productos, marcas">
                     <button class="form__button"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </nav>
@@ -48,13 +48,9 @@
         </section>
     </header>
     <main class="login__main">
-        <form class="main__form">
-            <label class="username">
-                <input class="login__input" type="text" placeholder=" Nombre de usuario">
-            </label>
-            <label class="password">
-                <input class="login__input" type="password" placeholder=" Elegí tu contraseña">
-            </label>
+        <form class="main__form" action="./home.html">
+            <input class="form__input" type="text" placeholder="Nombre de usuario">
+            <input class="form__input" type="password" placeholder="Elegí tu contraseña">
             <button class="form__submit" type="submit">Enviar</button>
         </form>
     </main>
